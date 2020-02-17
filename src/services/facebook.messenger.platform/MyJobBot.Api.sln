@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29230.47
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJobBot.Api", "MyJobBot.Api\MyJobBot.Api.csproj", "{666130F7-AFF1-45B5-8BB2-F89AD7093AF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyJobBot.Api", "MyJobBot.Api\MyJobBot.Api.csproj", "{666130F7-AFF1-45B5-8BB2-F89AD7093AF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{9E82DED4-8506-4D75-9662-67C4D0DA3C71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyJobBot.Platform.Messenger", "MyJobBot.Platform.Messenger\MyJobBot.Platform.Messenger.csproj", "{F9830EC1-DA1B-4855-B148-F196B591F6B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{666130F7-AFF1-45B5-8BB2-F89AD7093AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{666130F7-AFF1-45B5-8BB2-F89AD7093AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{666130F7-AFF1-45B5-8BB2-F89AD7093AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9830EC1-DA1B-4855-B148-F196B591F6B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9830EC1-DA1B-4855-B148-F196B591F6B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9830EC1-DA1B-4855-B148-F196B591F6B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9830EC1-DA1B-4855-B148-F196B591F6B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F9830EC1-DA1B-4855-B148-F196B591F6B3} = {9E82DED4-8506-4D75-9662-67C4D0DA3C71}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {013302D5-D6DA-4943-A9D3-B93F28A326A0}
